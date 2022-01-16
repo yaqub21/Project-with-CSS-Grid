@@ -1,0 +1,96 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .container {
+    width: 95%;
+  }
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  .container {
+    width: 95%;
+  }
+  .service-area-section {
+    padding: 20px 0px;
+  }
+  .gallery-area {
+    padding: 20px 0px;
+  }
+  .contact-area {
+    padding: 20px 0px;
+  }
+  .contact {
+    grid-template-columns: auto;
+  }
+  .contact .form {
+    margin-bottom: 20px;
+  }
+  .address {
+    margin-left: 35%;
+  }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+      .container {
+        width: 95%;
+      }
+      .header-container {
+        grid-template-columns: 100%;
+      }
+      .menu ul {
+        display: block;
+        text-align: center;
+      }
+      .logo {
+        text-align: center;
+      }
+    .banner img {
+      width: 100%;
+      height: 300px;
+      text-align: center;
+    }
+    .title {
+      text-align: center;
+      font-size: 26px;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+    .service-bottom {
+      display: grid;
+      grid-template-columns: auto;
+      margin-top: 40px;
+      row-gap: 20px;
+    }
+    .serv-container {
+      grid-template-columns: auto;
+    }
+    .single-serv {
+      margin-bottom: 20px;
+    }
+    .service-area-section {
+      padding: 10px 0px;
+    }
+    .gallery-area {
+      padding: 10px 0px;
+    }
+    .gallerys {
+      grid-template-columns: repeat(2,auto);
+    }
+    .contact-area {
+      padding: 10px 0px;
+    }
+    .contact {
+      grid-template-columns: auto;
+      row-gap: 20px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

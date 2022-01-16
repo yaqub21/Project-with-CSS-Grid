@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header CSS  */
+.header-area {
+  padding: 40px 0px;
+}
+.header-container {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul {
+	display: grid;
+	justify-content: end;
+	grid-template-columns: repeat(5, auto);
+  grid-gap : 20px;
+}
+
+.menu ul li a:hover {
+  color: tomato;
+}
+
+/* Banner CSS  */
+.banner-area {
+  padding: 20px 0px;
+}
+.banner img {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+/* Service CSS  */
+.service-area {
+  padding: 40px 0px;
+}
+.service-top {
+  text-align: center;
+  padding: 0px 70px;
+  line-height: 30.5px;
+}
+.service-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 40px;
+}
+.single-service {
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 40px 20px;
+}
+
+.single-service i {
+	font-size: 22px;
+	border: 1px solid #ddd;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+}
+
+.single-service h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.single-service p {
+  padding: 0px 10px;
+}
+
+/* Service  */
+.service-area-section {
+  padding: 80px 0px;
+  background-color: #f2f2f2;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.serv-container {
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  column-gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+.single-serv h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  background-color: teal;
+  color: #fff;
+  padding: 10px;
+}
+.single-serv a {
+  background-color: tomato;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.single-serv a:hover {
+  background-color: teal;
+}
+
+/* Gallery  */
+.gallery-area {
+  padding: 80px 0px;
+}
+.gallerys {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+.single-gallery {
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* Contact CSS  */
+.contact-area {
+  background-color: #f2f2f2;
+  padding: 80px 0px;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3,70% 30%);
+  column-gap: 20px;
+}
+.form input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.form input[type=submit] {
+  background-color: tomato;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.form input[type="submit"]:hover {
+  background-color: teal;
+}
+.address {
+  margin-left: 20px;
+}
+.single-address {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 4fr);
+  margin-bottom: 10px;
+}
+.single-address i {
+	background-color: tomato;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.single-address h4 {
+  margin-left: 10x;
+  font-size: 16px;
+  font-weight: 700;
+}
+.single-address span {
+  font-weight: 400;
+  display: block;
+  font-size: 15px;
+}
+
+/* Footer CSS  */
+
+.footer {
+  background-color: teal;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+}
